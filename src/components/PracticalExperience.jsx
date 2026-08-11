@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/Section.css";
 
 function PracticalExperience() {
   const [companyName, setCompanyName] = useState("");

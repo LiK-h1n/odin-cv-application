@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/Section.css";
 
 function GeneralInfo() {
   const [fullName, setFullName] = useState("");
