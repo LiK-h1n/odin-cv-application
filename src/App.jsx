@@ -1,5 +1,7 @@
+import GeneralInfo from "./components/GeneralInfo";
+
 function App() {
-  return <></>;
+  return <GeneralInfo></GeneralInfo>;
 }
 
 export default App;
