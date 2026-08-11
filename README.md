@@ -1,16 +1,14 @@
-# React + Vite
+# Odin: CV Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+A modern, component-based resume builder built with React. This application allows users to dynamically input their professional details—including general contact information, educational history, and practical work experience—and transform them into a clean, recruiter-ready document. The project focuses on the core principles of React: state management, conditional rendering, and the transition from imperative to declarative UI patterns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Skills Demonstrated
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React State Management:** Utilizing the `useState` hook to handle real-time data input across multiple independent components.
+- **Conditional Rendering:** Implementing "Edit" and "Display" modes using ternary operators to toggle between interactive forms and static document views without page reloads.
+- **Controlled Components:** Syncing HTML input elements with React state using `value` and `onChange` patterns to ensure a single source of truth for all user data.
+- **Component Architecture:** Breaking down a complex UI into specialized, reusable functional components (`GeneralInfo`, `Education`, `PracticalExperience`).
+- **Modern CSS:** Implementing a "Silicon Valley Professional" aesthetic using CSS Variables, Flexbox, and a comprehensive Josh Comeau-inspired reset.
+- **Vite Tooling:** Leveraging the Vite build tool for an optimized development environment and high-speed Hot Module Replacement (HMR).
